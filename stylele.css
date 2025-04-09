@@ -1,0 +1,129 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #144272;
+}
+.navbar{
+    border-radius: 4px;
+    background: #0A2647;
+    color: aliceblue;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgb(9, 9, 18) 3px 3px 3px;
+}
+
+.botoes{
+    display: flex;
+    gap: 15px;
+    margin-top: 3px;
+}
+
+.dropDownContent{
+    padding: 3px;
+    margin-top: 4px;
+    margin-right: 7px;
+    display: none;
+    position: absolute;
+    background-color: #0e6ba8;
+    width: 150px;
+    z-index: 1;
+    right: 0;
+    border: solid 2px black;
+    
+}
+
+.dropDownContent a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.dropDownContent :hover{
+    font-weight: bolder;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.dropbtn{
+    border-radius: 2px;
+    background-color: #444;
+    cursor: pointer;
+    width: 105x;
+    height: 35px;
+    color: rgb(26, 62, 94);
+}
+
+.botoes button{
+ background-color: rgb(9, 35, 65);
+ color: aliceblue;
+ box-shadow: white 1px 1px;
+}
+
+.dropDown:hover .dropDownContent{
+    display: block;
+    
+}
+
+.content{
+    flex: 3;
+    padding: 13px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.ddc{
+    border: 5px solid transparent;
+   
+}
+
+a{
+    border: solid 2px black;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.novoQuadro{
+    display: none;
+    flex-direction: column;
+    background-color:#2C74B3;
+    margin-top: 40px;
+    border: 4px solid black;
+    width: 280px;
+    height: 180px;
+    color: aliceblue;
+    justify-self: center
+}
+
+.novoQuadroHead{
+    border-bottom: 3px solid black;
+    height: 55px;
+    text-align: center;
+    background-color: #205295;
+}
+.novoQuadro input{
+    align-self: center;
+    width: 240px;
+}
+.novoQuadro button{
+    align-self: center;
+    margin-top: 10px;
+    width: 80px;
+}
+.novoQuadro h2{
+    margin-top: 15px;
+}
+
+.novoQuadro label{
+    margin-top: 10px;
+    margin-left: 16px;
+    margin-bottom: 5px;
+    font-size: 95%;
+}
+

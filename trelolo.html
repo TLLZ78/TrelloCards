@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trellinho</title>
+    <link rel="stylesheet" href="stylele.css">
+</head>
+<body>
+    
+    <div class="navbar">
+        <h2>Tralha</h2>
+    <div class="botoes">
+        <button id="btnCriar" class="dropbtn" onclick="botaoNovoQuadro()">Novo Quadro</button>
+            <div class="ddc">   
+            </div>
+
+        <div class="dropDown">
+            <button  id="btn" class="dropbtn">Quadros</button>
+            <div class="ddc">
+                <div class="dropDownContent">
+                    <a href="#">Quadro 1</a>
+                    <a href="#">Quadro 2</a>
+                    <a href="#">Quadro 3</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div style="display: none;" id="novoQuadro" class="novoQuadro">
+        <div class="novoQuadroHead">
+           <h2>Novo Quadro</h2> 
+        </div>  
+        <label for="nomeQuadro">Nome do Quadro: </label>
+        <input id ="nomeQuadro" type="text" placeholder="Meu quadro trelo">
+        <button type="button" onclick="criarQuadro()">Criar</button>
+    </div>
+     
+</body>
+<script src="trelolo.js"></script>
+</html>
